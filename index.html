@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the wonders of Athens, Greece. History, culture, travel tips and more.">
+    <meta name="keywords" content="Athens, Greece, travel, history, culture">    
+    <meta name="author" content="Vikash">
     <title>Athens</title>
 </head>
 
@@ -14,60 +17,152 @@
 
     <main>
         <!---Blockquote-->
-        <section class="overview">
+        <section id="overview">
             <h2>Overview</h2>
             <blockquote cite="https://en.wikipedia.org/wiki/Athens">
-                <strong>Athens</strong>, the capital city of Greece, is a major urban area in the Mediterranean and a
-                key cultural and economic center in southeastern Europe. With a population of over 3.6 million in its
-                urban area, it is the eighth-largest urban area in the European Union (EU). The Municipality of Athens
-                has a population of 643,452 (2021) within its official limits, and covers an area of 38.96 km2 (15.04 sq
-                mi).
+                <strong>Athens</strong>, the capital city of Greece, is a major urban area in the Mediterranean and
+                a key cultural and economic center in southeastern Europe. With a population of over 3.6 million in
+                its urban area, it is the eighth-largest urban area in the European Union (EU). The Municipality of
+                Athens has a population of 643,452 (2021) within its official limits, and covers an area of 38.96
+                km2 (15.04 sq mi).
             </blockquote>
         </section>
 
         <!---Images-->
-        <section class="images">
+        <section id="images">
             <h2>Images</h2>
             <figure>
-                <img src="images/Monastiraki_Square.jpg" alt="Monastiraki Square in Athens" width="400">
+                <img src="images/Monastiraki_Square.jpg" alt="Monastiraki Square in Athens" width="400" />
                 <figcaption>Monastiraki Square, a vibrant public space in the heart of Athens</figcaption>
             </figure>
         </section>
 
         <!---Quote-->
-        <section>
+        <section id="famous-quote">
             <h2>Famous Quote</h2>
             <p>
                 <q cite="https://en.wikipedia.org/wiki/Pericles">What you leave behind is not what is engraved in stone
-                    monuments,but what is woven into the lives of others.</q>
+                    monuments,but what is woven into the
+                    lives of others.</q>
                 — <cite>Pericles</cite>
             </p>
         </section>
 
         <!--Video-->
-        <section>
+        <section id="explore-athens">
             <h2>Explore Athens</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/wa1fa5-EnlI?si=-lqYxEg2EjGEYZSW"
-                title="YouTube video player" frameborder="0"
+                title="Explore Athens" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-
     </main>
+
     <aside>
         <!--Links-->
-        <section>
-
+        <section id="learn-more">
+            <h2>Learn More</h2>
+            <ul>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Athens" target="_blank"
+                        title="Wikipedia page about Athens">Athens on Wikipedia
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.visitgreece.gr/" target="_blank" title="Official tourism site of Greece">Visit
+                        Greece</a>
+                </li>
+                <li>
+                    <a href="https://www.lonelyplanet.com/greece/athens" target="_blank"
+                        title="Travel guide to Athens by Lonely Planet">Lonely Planet: Athens</a>
+                </li>
+            </ul>
         </section>
 
         <!--Table-->
-        <section>
-
+        <section id="city-facts">
+            <h2>City Facts</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fact</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Population</td>
+                        <td>Over 3 million</td>
+                    </tr>
+                    <tr>
+                        <td>Timezone</td>
+                        <td>EET (UTC+2)</td>
+                    </tr>
+                    <tr>
+                        <td>Founded</td>
+                        <td>5th century BC</td>
+                    </tr>
+                    <tr>
+                        <td>Official Language</td>
+                        <td>Greek</td>
+                    </tr>
+                    <tr>
+                        <td>Currency</td>
+                        <td>Euro (€)</td>
+                    </tr>
+                    <tr>
+                        <td>Climate</td>
+                        <td>Mediterranean - hot, dry summers and mild, wet winters</td>
+                    </tr>
+                    <tr>
+                        <td>Famous Landmark</td>
+                        <td>The Acropolis</td>
+                    </tr>
+                    <tr>
+                        <td>UNESCO World Heritage Site</td>
+                        <td>Yes - includes the Acropolis of Athens</td>
+                    </tr>
+                    <tr>
+                        <td>Annual Visitors</td>
+                        <td>Over 6 million tourists per year</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <!--Form-->
-        <section>
+        <section id="feedback">
+            <h2>Give Us Your Thoughts</h2>
+            <form>
+                <label for="name" class="form-label">Name:</label><br>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required
+                    autofocus>
 
+                <br><br>
+
+                <label for="email" class="form-label">Email:</label><br>
+                <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com">
+
+                <br><br>
+
+                <label for="visit" class="form-label">When do you plan to visit?</label><br>
+                <select id="visit" name="visit" class="form-control">
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="fall">Fall</option>
+                    <option value="winter">Winter</option>
+                </select>
+
+                <br><br>
+
+                <label for="comments" class="form-label">Comments:</label><br>
+                <textarea id="comments" name="comments" class="form-control" rows="5"
+                    placeholder="Your thoughts about Athens..."></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit" class="form-control">
+            </form>
         </section>
     </aside>
 
