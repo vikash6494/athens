@@ -93,3 +93,51 @@ blockquote {
     /* Lifts the quote visually by adding subtle shadow effect */
     box-shadow: 0 0.3rem 0.6rem #00000033;
 }
+
+/* Figure and image styling - element selector */
+figure {
+    border: 0.2rem solid #b4b4b4;
+    /* Rounds figure corners */
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+img {
+    /* Removes inline spacing below image */
+    display: block;
+    /* Responsive width */
+    width: 90%;
+    /* Centers image */
+    margin: 0 auto;
+    border: 0.1rem solid #b4b4b4;
+    border-radius: 0.7rem;
+}
+
+figcaption {
+    /* Smaller text */
+    font-size: 0.7rem;
+    /* Small caps style */
+    font-variant: small-caps;
+}
+
+/* YouTube iframe - element selector */
+iframe {
+    border: 0.2rem solid #8a8a8a;
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+/* Quote section - id selector */
+#famous-quote {
+    border: 0.2rem solid #8a8a8a;
+    box-shadow: 0 0.5rem 1rem #00000053;
+    width: 80%;
+    font-family: Courier, monospace;
+    font-style: italic;
+    color: #323232;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
