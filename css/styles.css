@@ -141,3 +141,82 @@ iframe {
     margin: 2rem auto;
 }
 
+/* List and link styling - element selector */
+ul {
+    /* Removes bullet points */
+    list-style: none;
+    /* Removes default padding */
+    padding-left: 0;
+}
+
+a {
+    /* Removes default underline */
+    text-decoration: none;
+    color: #00008c;
+}
+
+/* Triggered when a link has been visited */
+a:visited {
+    color: #700070;
+}
+
+/* Triggered when a link is hovered */
+a:hover {
+    /* Underlines text */
+    text-decoration: underline;
+    color: #000057;
+}
+
+/* Triggered when a link is being clicked */
+a:active {
+    color: #00843e;
+}
+
+/* Table formatting - type selector */
+table {
+    width: 100%;
+    /* Merges table cell borders giving a borderless table */
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: #06568b;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+    border: 0.1rem solid #777777;
+}
+
+tbody tr:nth-child(even) {
+    /* Alternating row background */
+    background-color: #c6c6c6;
+}
+
+tbody tr:hover {
+    /* Row highlight on hover */
+    background-color: #838383;
+}
+
+/* Form styling - class selector */
+.form-label {
+    font-variant: small-caps;
+    font-weight: 600;
+    color: #444444;
+}
+
+.form-control {
+    padding: 0.8rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    /* Makes all inputs consistent width */
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
