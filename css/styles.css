@@ -42,5 +42,42 @@ aside {
 footer {
     /* Clears floats for proper layout flow */
     clear: both;
+    /* Decorative background gradient */
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    /* Center-aligns text */
+    text-align: center;
+    /* white text color */
+    color: #ffffff;
+    /* Slightly smaller footer text */
+    font-size: 0.7rem;
+}
+
+header h1 {
+    /* Enlarges header title */
+    font-size: 5rem;
+    /* white text color */
+    color: #ffffff;
+}
+
+header {
+    /* Decorative background gradient */
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    /* Center-aligns text */
+    text-align: center;
+}
+
+section h2 {
+    /* Changes letters to small caps */
+    font-variant: small-caps;
+    /* Italic text style */
+    font-style: italic;
+    /* Semi-bold text */
+    font-weight: 600;
+    /* Serif font for headings */
+    font-family: 'Times New Roman', serif;
+    /* adds text color */
+    color: #1f1f1f;
+    /* Centers the text */
+    text-align: center;
 }
 
