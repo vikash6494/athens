@@ -220,3 +220,28 @@ tbody tr:hover {
     margin-bottom: 1rem;
 }
 
+/* Responsive adjustments - media query */
+@media screen and (max-width: 768px) {
+    html {
+        /* Scales font down slightly */
+        font-size: 1rem;
+    }
+
+    main,
+    aside {
+        /* Removes floating on small screens */
+        float: none;
+        /* Occupies full width */
+        width: 100%;
+        /* Reduce padding for compactness */
+        padding: 1rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .form-control {
+        width: 25rem;
+    }
+}
