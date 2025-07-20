@@ -1,3 +1,46 @@
 /* Name: Vikash */
 /* Student Number: 9056494 */
 
+/* Root element styling - type selector */
+html {
+    /* Sets complete font shorthand: style, variant, weight, size, line-height, and family */
+    font: normal small-caps 400 20px/1.5 Arial, sans-serif;
+    /* Light gray background for entire page */
+    background-color: #cacaca;
+}
+
+/* Body styling - type selector */
+body {
+    /* Constrains content width */
+    max-width: 1100px;
+    /* Centers page horizontally */
+    margin: 0 auto;
+    /* Adds internal spacing */
+    padding: 1.5rem;
+    /* Border for visual boundary */
+    border: 0.1rem solid #6f6f6f;
+    background-color: #ffffff;
+}
+
+/* Main content styling - type selector */
+main {
+    /* Positions main content on the left */
+    float: left;
+    /* Occupies 64% of the page width */
+    width: 64%;
+    padding: 1rem;
+}
+
+aside {
+    /* Positions to the right */
+    float: right;
+    /* Occupies 28% of the page width */
+    width: 28%;
+    padding: 1rem;
+}
+
+footer {
+    /* Clears floats for proper layout flow */
+    clear: both;
+}
+
