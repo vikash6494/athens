@@ -81,3 +81,15 @@ section h2 {
     text-align: center;
 }
 
+/* Blockquote styling - element selector */
+blockquote {
+    font-style: italic;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-left: 0.5rem solid #8a8a8a;
+    width: 80%;
+    /* Centers the blockquote with vertical spacing */
+    margin: 0 auto;
+    /* Lifts the quote visually by adding subtle shadow effect */
+    box-shadow: 0 0.3rem 0.6rem #00000033;
+}
